@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div id="main-container">
+        <div id="header"></div>
+        <div id="body">
+            <div id="calculator-container">
+                <div id="calculator-display"></div>
+                <div id="calculator-buttons">
+                    <div class="row one">
+                        <div class="button" id="clear">AC</div>
+                        <div class="button" id="square-root">&Sqrt;</div>
+                        <div class="button" id="percent">&percnt;</div>
+                        <div class="button" id="divide" data-value="/">&divide;</div>
+                    </div>
+                    <div class="row two">
+                        <div class="button integer" id="7" data-value="7">7</div>
+                        <div class="button integer" id="8" data-value="8">8</div>
+                        <div class="button integer" id="9" data-value="9">9</div>
+                        <div class="button" id="multiply"  data-value="*">&times;</div>
+                    </div>
+                    <div class="row three">
+                        <div class="button integer" id="4" data-value="4">4</div>
+                        <div class="button integer" id="5" data-value="5">5</div>
+                        <div class="button integer" id="6" data-value="6">6</div>
+                        <div class="button" id="minus" data-value="-">&minus;</div>
+                    </div>
+                    <div class="row four">
+                        <div class="button integer" id="1" data-value="1">1</div>
+                        <div class="button integer" id="2" data-value="2">2</div>
+                        <div class="button integer" id="3" data-value="3">3</div>
+                        <div class="button plus" id="plus" data-value="+">&plus;</div>
+                    </div>
+                    <div class="row five">
+                        <div class="button" id="0" data-value="0">0</div>
+                        <div class="button" id="decimal" data-value=".">.</div>
+                        <div class="button" id="equals">&equals;</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
