@@ -76,4 +76,10 @@
 .plus {
     height: 130px;
     max-height: 126px;
+    background-color: orangered;
+}
+
+#clear {
+    background-color: yellow;
+    color: black;
 }
